@@ -1,1 +1,1 @@
-"use strict";var name="张苏纳99";console.log(name);
+"use strict";function demo(){return{name:"张三",age:21}}var _demo=demo(),name=_demo.name,age=_demo.age,str="我叫 "+name+"，今年"+age;$("#box2").html(str);

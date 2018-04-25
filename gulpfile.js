@@ -109,7 +109,7 @@ gulp.task('dev', function() {
             baseDir: './after_file',   // 启动服务的目录 默认 index.html    
             index: 'index.html'        // 自定义启动文件名
         },
-        port:8050,                     // 指定访问服务器的端口号
+        port:8051,                     // 指定访问服务器的端口号
         open: 'external',              // 决定Browsersync启动时自动打开的网址 external 表示 可外部打开 url, 可以在同一 wifi 下不同终端测试
         injectChanges: true            // 注入CSS改变
     });
